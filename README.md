@@ -4,9 +4,9 @@ WebRTC File Sharing is a web application that enables peer-to-peer connections t
 
 ## Features
 
-    Peer-to-peer file sharing without the need for centralized servers.
-    Share files by generating direct download links to be sent to others.
-    Explore pages with multiple files currently being distributed.
+- Peer-to-peer file sharing without the need for centralized servers.
+- Share files by generating direct download links to be sent to others.
+- Explore pages with multiple files currently being distributed.
 
 ## Getting Started
 
