@@ -12,10 +12,10 @@ WebRTC File Sharing is a web application that enables peer-to-peer connections t
 
 To use WebRTC File Sharing, simply open the application in your web browser. No installation or additional software is required. Follow the steps below to get started:
 
-    Go to WebRTC File Sharing (replace "your-web-app-url" with the actual URL).
-    Drag and drop a file you want to share onto the page.
-    The file will be uploaded, and a direct download link will be generated.
-    Share the download link with others to allow them to download the file directly.
+- Go to WebRTC File Sharing (replace "your-web-app-url" with the actual URL).
+- Drag and drop a file you want to share onto the page.
+- The file will be uploaded, and a direct download link will be generated.
+- Share the download link with others to allow them to download the file directly.
 
 ## Example
 
@@ -23,9 +23,9 @@ Example Image
 
 ## Technologies Used
 
-    HTML, CSS, and JavaScript for the frontend user interface.
-    WebRTC for enabling peer-to-peer connections.
-    PeerJS library for simplifying WebRTC usage.
+- HTML, CSS, and JavaScript for the frontend user interface.
+- WebRTC for enabling peer-to-peer connections.
+- PeerJS library for simplifying WebRTC usage.
 
 ## Contributing
 
