@@ -19,7 +19,7 @@ To use WebRTC File Sharing, simply open the application in your web browser. No 
 
 ## Example
 
-[![Example image]([https://github.com/Fulldroper/WebRTC-File-Sharing/blob/master/Screenshot_4.png?raw=true](https://raw.githubusercontent.com/Fulldroper/WebRTC-File-Sharing/main/Screenshot_4.png))](https://raw.githubusercontent.com/Fulldroper/WebRTC-File-Sharing/main/Screenshot_4.png)
+![Example image](https://raw.githubusercontent.com/Fulldroper/WebRTC-File-Sharing/main/Screenshot_4.png)
 
 ## Technologies Used
 
