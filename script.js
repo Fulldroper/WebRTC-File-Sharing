@@ -14,7 +14,7 @@ window.onload = async () => {
   const HostID = parsed[0] || false;
   const FileID = parsed[1] || false;
   const peer = new Peer();
-  const myURL = `${window.location.protocol}//${window.location.host}`
+  const myURL = `${window.location.protocol}//${window.location.host}${window.location.pathname}`
   const saveData = (function () {
     const a = document.createElement("a");
     document.body.appendChild(a);
