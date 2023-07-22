@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="data:image/x-icon;base64,==" type="image/x-icon">
+    <title>WebRTC File Sharing</title>
+    <style>
+      * {
+        font-family: 'Courier New', Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="default-p">
+      <h1>WebRTC File Sharing</h1>
+      <ul>
+        <li class="connection-status" style="color: red;">Status: Offline</li>
+        <li class="connection-id" style="color: cadetblue;">ID: none</li>
+        <li style="color:blue; cursor: pointer;" onclick="document.querySelector('input.file-input').click()">Share file [+]</li>
+      </ul>
+      
+      <div class="shared-files" style="visibility: visible;">
+        <h3>Shared Files</h3>
+        <ul style="list-style-type: disclosure-closed;">
+          <li class="shared-list">[ All files ]</li>
+        </ul>
+      </div>
+  
+      <div class="hosted-files" style="visibility: collapse;">
+        <h3>Host Files</h3>
+        <ul></ul>
+      </div>
+  
+      <input class="file-input" style="visibility: collapse;" type="file" autocomplete="off" multiple />
+    </div>
+
+    <div class="loading-p" style="visibility: collapse;">
+      <h1>WebRTC File Sharing</h1>
+      <h3>Downloading... wait please..</h3>
+    </div>
+    
+    <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
